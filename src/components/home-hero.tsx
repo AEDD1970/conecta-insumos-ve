@@ -45,7 +45,7 @@ export function HomeHero() {
               href="/hospitales/registro"
               className="rounded-[10px] bg-blue-600 px-4 py-2 text-xs font-black text-white shadow-sm transition hover:bg-blue-500"
             >
-              Registrar hospital
+              Monitoreo en tiempo real
             </Link>
           </div>
         </div>
@@ -136,7 +136,7 @@ export function HomeHero() {
                   href="/hospitales/registro"
                   className="rounded-[10px] border border-blue-200 bg-blue-50 px-4 py-2 text-center text-xs font-black text-blue-700 transition hover:border-blue-300 hover:bg-blue-100"
                 >
-                  Postular hospital
+                  Ver monitoreo
                 </Link>
               </div>
               <div className="mt-4 grid gap-3 md:grid-cols-3">
@@ -183,7 +183,7 @@ export function HomeHero() {
               Consulta publica
             </Link>
             <Link href="/hospitales/registro" className="hover:text-blue-700">
-              Registrar hospital
+              Monitoreo
             </Link>
             <Link href="/dashboard/conductor" className="hover:text-blue-700">
               Logistica

@@ -100,10 +100,10 @@ export function AuthPanel() {
         className="mt-3 block rounded-[14px] border border-emerald-100 bg-emerald-50 p-4 transition hover:border-emerald-200 hover:bg-emerald-100"
       >
         <p className="text-xs font-black uppercase text-emerald-700">
-          Registrar hospital en la red
+          Monitoreo en Tiempo Real: Caracas
         </p>
         <p className="mt-1 text-xs leading-5 text-slate-600">
-          Agrega nombre, direccion y coordenadas para ubicarlo en el mapa.
+          Visualiza hospitales, faltantes y rutas solidarias activas.
         </p>
       </Link>
 

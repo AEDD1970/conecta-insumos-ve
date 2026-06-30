@@ -40,8 +40,16 @@ Conecta Med coordina intercambio solidario entre hospitales en Venezuela, Caraca
 - Mapa operativo: hospitales con faltantes, sobrantes, servicios y rutas.
 - Panel medico: inventario del hospital, alertas de intercambio y formulario de reporte.
 - Panel conductor: rutas disponibles, carga, origen, destino y evidencia de entrega.
-- Panel administrador: aprobaciones, auditoria, hospitales y usuarios pendientes.
-- Registro visible de hospital: nombre, direccion, latitud, longitud y ubicacion seleccionada en mapa desde `/hospitales/registro`.
+- Panel administrador: monitoreo en tiempo real, hospitales registrados, colaboradores aprobados, peticiones de registro y servicios de ayuda activos.
+- Registro de hospital: nombre, direccion, latitud, longitud y ubicacion seleccionada en mapa desde perfiles medico/admin certificados.
+- Monitoreo publico de hospitales: `/hospitales/registro` muestra mapa operativo, faltantes y centros conectados; no permite registrar hospitales publicamente.
+
+## Interfaces homologadas iniciales
+
+- Hospital: nombre, municipio, direccion, posicion geografica `[lat, lng]`, necesidad principal y estado operativo.
+- Colaborador: iniciales, nombre, rol, cedula, telefono, correo, hospital o red asignada, credencial y estado.
+- Servicio de ayuda: nombre, ubicacion, descripcion, responsable, telefono, fechas, horario, posicion y estado en mapa.
+- Traslado logistico: id, insumo, cantidad, unidad, origen, destino, conductor, vehiculo, estado y evidencia.
 
 ## Regla de negocio inicial
 

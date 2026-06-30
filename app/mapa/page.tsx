@@ -189,7 +189,7 @@ export default function PublicMapPage() {
             href="/hospitales/registro"
             className="block rounded-[12px] border border-blue-200 bg-blue-50 px-5 py-4 text-center text-sm font-black text-blue-700 transition hover:bg-blue-100"
           >
-            Registrar hospital
+            Monitoreo en tiempo real
           </Link>
         </aside>
       </div>
