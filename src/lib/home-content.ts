@@ -54,12 +54,7 @@ export const cooperationSteps = [
 export const partnerHospitals = [
   "Hospital Universitario de Caracas",
   "Hospital J. M. de los Rios",
+  "Hospital Dr. Domingo Luciani",
   "Hospital Domingo Luciani",
   "Hospital Perez Carreno",
-] as const;
-
-export const urgencyLevels = [
-  "Critica - menos de 6 horas",
-  "Alta - hoy",
-  "Programada - 24 a 48 horas",
 ] as const;
