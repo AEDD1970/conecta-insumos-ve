@@ -1,33 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Conecta Med
+
+Base web para una plataforma solidaria de coordinacion de insumos medicos, donaciones y traslados humanitarios entre hospitales.
 
 ## Getting Started
 
-First, run the development server:
+Instala dependencias y corre el servidor de desarrollo:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Estructura
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/`: rutas y layout global de Next.js.
+- `src/components/`: componentes reutilizables de UI.
+- `src/lib/`: constantes, contenido y futuros helpers de dominio.
+- `docs/ARCHITECTURE.md`: mapa de crecimiento del producto.
 
-## Learn More
+## Scripts
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev
+npm run lint
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Nota tecnica
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este proyecto usa Next.js 16 con App Router. Antes de usar APIs o convenciones nuevas de Next, revisar la documentacion local en `node_modules/next/dist/docs/`, como indica `AGENTS.md`.
+
+La base evita `next/font/google` para que el build no dependa de descargar fuentes externas.
 
 ## Deploy on Vercel
 
